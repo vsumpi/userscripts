@@ -15,7 +15,7 @@
 
     const style = document.createElement('style');
     style.textContent = `
-        .live-players-count_container__RFvCF {
+        [class*="live-players-count_container"] {
             display: none !important;
         }
     `;
